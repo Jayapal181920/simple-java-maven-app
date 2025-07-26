@@ -47,7 +47,6 @@
           </archive>
         </configuration>
       </plugin>
-      <>
         <groupId>org.apache.maven.s</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
         <version>3.6.1</version>
