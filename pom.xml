@@ -30,6 +30,11 @@
           </configuration>
         </plugin>
       </plugins>
+      <plugin>
+  <groupId>org.sonarsource.scanner.maven</groupId>
+  <artifactId>sonar-maven-plugin</artifactId>
+  <version>4.0.0.4121</version>
+</plugin>
     </pluginManagement>
     <plugins>
       <plugin>
@@ -47,8 +52,8 @@
           </archive>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
+      <>
+        <groupId>org.apache.maven.s</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
         <version>3.6.1</version>
         <executions>
